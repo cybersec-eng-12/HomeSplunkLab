@@ -22,8 +22,6 @@ The table command is to display relevant information to the SOC Analyst investig
 - ParentUser -> user who initiated this command
 - CommandLine -> entire command that was run
 
-### False Positives: Legitimate backup software may trigger this.
-
 # Alert Being Triggered: 
 
 <img width="2546" height="268" alt="image" src="https://github.com/user-attachments/assets/35f62015-6740-4607-a353-e97eb4d044c7" />
@@ -31,3 +29,6 @@ The table command is to display relevant information to the SOC Analyst investig
 ## Viewed Result:
 
 <img width="2558" height="384" alt="ransomeware_resullt" src="https://github.com/user-attachments/assets/f05030dc-2684-4c70-9893-abfb6e81615d" />
+
+# False Positives:
+- Legitimate backup software may trigger this.
