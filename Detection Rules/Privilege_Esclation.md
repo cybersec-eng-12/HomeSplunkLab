@@ -7,6 +7,7 @@
 
 ## Data Source & Identifiers
 - Windows Security Log Event ID: EventCode=4728(Global) OR EventCode=4732(Local) OR EventCode=4756(Uniserval)
+- Group_Name is "Domain Admins"
 
 ### SPL Query:
 `index=* (EventCode=4728 OR EventCode=4732 OR EventCode=4756) Group_Name="Domain Admins" | table _time, host, Group_Name, user, Subject_Account_Name | rename Subject_Account_Name as "Added by", user as "User added to Group"`
