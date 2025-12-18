@@ -1,6 +1,6 @@
 # Possible Ransomeware Indicator of Compromise(IOC)
 
-## Alert Name: Shadow Delete Command Attempt
+## Alert Name: *Shadow Delete Command Attempt*
 
 ## Description
 - Detects execution of vssadmin.exe attempting to delete volume shadow copies.
