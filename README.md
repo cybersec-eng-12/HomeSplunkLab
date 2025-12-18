@@ -17,4 +17,4 @@ Practical homelab of Windows VMs connected together via Active Directory Domain.
 - Ubuntu Server 24
 
 # Network Diagram
-<img width="991" height="1051" alt="Enterprise SIEM Network Diagram drawio" src="https://github.com/user-attachments/assets/54aa5700-0eb6-4468-bccf-1192dd679feb" />
+<img width="991" height="1051" alt="Enterprise SIEM Network Diagram drawio" src="https://github.com/user-attachments/assets/54aa5700-0eb6-4468-bccf-1192dd679feb"/>
