@@ -6,7 +6,7 @@
 - Alerts if the Windows Secruity log is deleted.
 
 ## Data Source & Identifiers
-- Windows Security Log EventCode 1102.
+- Windows EventCode 1102.
 
 ### SPL Query:
 `index=* EventCode=1102
