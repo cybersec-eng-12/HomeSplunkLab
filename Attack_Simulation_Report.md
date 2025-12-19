@@ -1,13 +1,13 @@
 # Scenario: Internal Network Reconnaissance & Brute Force
 
 ### Attacker: Kali Linux (IP: 192.168.86.29)
-### Victim: 2 Windows 11 Endpoints: Win-Client-01(IP: 192.168.86.26) & Win-Client-02(IP:192.168.86.32) 
+### Victim: 2 Windows 11 Endpoints: Win-Client-01(IP: 192.168.86.26) & Win-Client-02(IP: 192.168.86.32) 
 
 ## Attack 1: Nmap Port Scan
 
-Command Used: nmap -sT -T5 -p- <Windows-Victim-IP>
+**Command Used**: `nmap -sT -T5 -p- <Windows-Victim-IP>`
 
-Detection: Detected via Sysmon Event ID 3. Observed between 56 attempts on Win-Client-01 & 82 connection attempts on Win-Client-02 from Attacker IP within 20 seconds.
+**Detection**: Detected via Sysmon Event ID 3. Observed between 56 attempts on Win-Client-01 & 82 connection attempts on Win-Client-02 from Attacker IP within 20 seconds.
 
 Evidence: 
 
@@ -15,9 +15,9 @@ Evidence:
 
 ## Attack 2: RDP Brute Force
 
-Command Used: hydra -l localadmin passlist.txt rdp://192.168.86.26
+**Command Used**: `hydra -l localadmin passlist.txt rdp://192.168.86.26`
 
-Detection: Detected via Windows Event ID 4625.
+**Detection**: Detected via Windows Event ID 4625.
 
 Evidence: 
 <img width="2554" height="357" alt="image" src="https://github.com/user-attachments/assets/de03e108-f1fa-425e-bc5a-7b7635489e6a" />
