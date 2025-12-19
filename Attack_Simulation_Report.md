@@ -9,7 +9,7 @@
 
 **Detection**: Detected via Sysmon Event ID 3. Observed between 56 attempts on Win-Client-01 & 82 connection attempts on Win-Client-02 from Attacker IP within 20 seconds.
 
-Evidence: 
+**Evidence**: 
 
 <img width="2536" height="386" alt="nmap_scan_being_detected" src="https://github.com/user-attachments/assets/6d89347e-2a41-49cc-8e99-534e846cad4d" />
 
@@ -19,9 +19,9 @@ Evidence:
 
 **Detection**: Detected via Windows Event ID 4625.
 
-Evidence: 
+**Evidence**: 
 <img width="2554" height="357" alt="image" src="https://github.com/user-attachments/assets/de03e108-f1fa-425e-bc5a-7b7635489e6a" />
 
-Conclusion:
+**Conclusion**:
 The SIEM successfully ingested logs from endpoints, identifying both the scanning activity and an active brute-force attack. Future improvements could include automated IP blocking via firewall integration or automatic account disabling with Active Directory integration.
 
