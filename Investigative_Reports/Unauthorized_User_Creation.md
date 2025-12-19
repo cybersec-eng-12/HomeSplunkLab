@@ -1,8 +1,8 @@
 # Incident Report: Unauthorized User Creation
 
-Date: Dec 18th, 2025
+### Date: Dec 18th, 2025
 
-Severity: High
+### Severity: High
 
 ### Analysis:
 
