@@ -6,7 +6,7 @@
 - Detects if user has failed to input their password correctly > 3 times.
 
 ## Data Source & Identifiers
-- Windows Security Log EventCode: 4625.
+- Windows EventCode: 4625.
 
 ### SPL Query:
 `index=* EventCode=4625
