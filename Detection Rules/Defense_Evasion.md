@@ -23,5 +23,5 @@
 <img width="2551" height="391" alt="image" src="https://github.com/user-attachments/assets/12c4c76f-573b-4b10-9614-03232793ebaa" />
 
 # False Positives:
-- Retention policy had been reached & log is offloaed into a separate database instead of stored locally.
+- Retention policy had been reached & log is offloaded into a separate database instead of stored locally.
 
